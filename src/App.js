@@ -1,10 +1,16 @@
+import { BrowserRouter, Link, Routes, Route } from "react-router-dom";
+import { About } from "./About";
+import { More } from "./More";
+import { Home } from "./Home";
+import { Page404 } from "./Page404";
 import icon from './icon.jpg';
 import './App.css';
 import './index.css';
 
 function App() {
-  return (
-    <div>
+  return ( 
+  <BrowserRouter>
+    <div className="App">
       <header>
         <div className='icon_wrapper'>
         <a href='./App.js'>
@@ -12,9 +18,32 @@ function App() {
         </a>
         </div>
         <nav className='right_content'>
-      <a href='./App.js'>Home</a>
-      <a href='./index.js'>About</a>
-    </nav>
+         <a href='./App.js'>Home</a>
+         <a href='./index.js'>About</a>
+         </nav>
+         
+        <Link to="/About">About</Link>
+        <br />
+        <Link to="/More">More</Link>
+        <br />
+        <Link to="/Home">Home</Link>
+        <br />
+
+        <Routes>
+          <Route exact path="/">
+            <About />
+          </Route>
+          <Route path="/More">
+            <More />
+          </Route>
+          <Route path="/Home">
+            <Home />
+          </Route>
+          <Route path="*">
+            <Page404 />
+          </Route>
+        </Routes>
+         
       </header>
       <main className='wrapper'>
         <h1 className='title'>gohantabeta</h1>
@@ -32,6 +61,7 @@ function App() {
         <p>&copy; 2022. gohantabeta. All rights reserved.</p>
       </footer>
     </div>
+    </BrowserRouter>
   );
 }
 
