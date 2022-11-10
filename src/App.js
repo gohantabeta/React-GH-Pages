@@ -4,33 +4,31 @@ import { More } from "./More";
 import { Home } from "./Home";
 import { Page404 } from "./Page404";
 import icon from './icon.jpg';
-import './App.css';
-import './index.css';
+//import './App.css';
+//import './index.css';
+import './style.css';
+//import './about.css';
 
 function App() {
   return ( 
-  <BrowserRouter>
+
     <div className="App">
-      <header>
+        <BrowserRouter>
+        <header>
         <div className='icon_wrapper'>
-        <a href='./App.js'>
         <img src={icon} className='img' alt='icon'/>
-        </a>
         </div>
         <nav className='right_content'>
-         <a href='./App.js'>Home</a>
-         <a href='./index.js'>About</a>
-         </nav>
-         
-        <Link to="/About">About</Link>
+        <Link to="/About" className='a'>About</Link>
         <br />
-        <Link to="/More">More</Link>
+        <Link to="/More" className='a'>More</Link>
         <br />
-        <Link to="/Home">Home</Link>
+        <Link to="/Home" className='a'>Home</Link>
         <br />
-
+        </nav>
+        </header>
         <Routes>
-          <Route path="/" element={<About />}>
+          <Route path="/About" element={<About />}>
           </Route>
           <Route path="/More" element={<More />}>
           </Route>
@@ -39,25 +37,13 @@ function App() {
           <Route path="*" element={<Page404 />}>
           </Route>
         </Routes>
-         
-      </header>
-      <main className='wrapper'>
-        <h1 className='title'>gohantabeta</h1>
-        <p className='desc'>gohantabetaのホームページへようこそ！</p>
-        <div className='social'>
-          <a href='https://github.com/gohantabeta' target='_blank' className='git'>
-            <i className='fa-brands fa-github fa-lg'></i>
-          </a>
-          <a href='https://twitter.com/gohantabetemita' target='_blank' className='twt'>
-        <i className='fa-brands fa-twitter fa-lg'></i>
-      </a>
-        </div>
-      </main>
+        </BrowserRouter>
+      
       <footer>
         <p>&copy; 2022. gohantabeta. All rights reserved.</p>
       </footer>
     </div>
-    </BrowserRouter>
+  
   );
 }
 
