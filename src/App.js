@@ -30,17 +30,13 @@ function App() {
         <br />
 
         <Routes>
-          <Route exact path="/">
-            <About />
+          <Route path="/" element={<About />}>
           </Route>
-          <Route path="/More">
-            <More />
+          <Route path="/More" element={<More />}>
           </Route>
-          <Route path="/Home">
-            <Home />
+          <Route path="/Home" element={<Home />}>
           </Route>
-          <Route path="*">
-            <Page404 />
+          <Route path="*" element={<Page404 />}>
           </Route>
         </Routes>
          
