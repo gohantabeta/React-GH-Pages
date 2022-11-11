@@ -1,7 +1,8 @@
+import './index.css'
+
 export const Home = () => {
     return (
       <div>
-        <h1>Home</h1>
         <main className='wrapper'>
         <h1 className='title'>gohantabeta</h1>
         <p className='desc'>gohantabetaのホームページへようこそ！</p>
