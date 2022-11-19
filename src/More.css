@@ -1,0 +1,62 @@
+:root {
+    --base: #333;
+    --base_light: #3f3f3f;
+    --main: #dada1f;
+    --main_light: #fafa8f;
+    --main_dark: #9a9a1f;
+    --acc: #8f8ffa;
+    --text: #ddd;
+  }
+
+.modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+  
+  .modal-inner {
+    position: absolute;
+    top: 8%;
+    right: 10%;
+    left: 10%;
+    max-width:1000px;
+    padding-bottom: 20px;
+    margin: auto;
+    background-color: var(--base);
+    border:2px solid var(--main);
+    border-radius: 8px;
+  }
+  
+  /* .modal-header {
+    height: 8px;
+    width: 100%;
+    margin-bottom: 60px;
+    border-radius: 8px 8px 0 0;
+    background-image: url("https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/react/modal_bar.svg");
+  } */
+  
+  .modal-introduction p {
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-weight: 300;
+  }
+  
+  .modal-close-btn {
+    font-size: 18px;
+    color: var(--text);
+    width: 20%;
+    min-width: 150px;
+    padding: 16px;
+    justify-content: center;
+    border: 3px solid var(--main);
+    background-color: black;
+  }
+  
+  .modal-close-btn:hover {
+    color:black;
+    background-color:var(--text);
+    transition: .3s ease-in-out;
+  }
