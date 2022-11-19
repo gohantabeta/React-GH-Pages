@@ -1,22 +1,23 @@
 {
   "files": {
     "main.css": "/React-GH-Pages/static/css/main.4362b039.css",
-    "main.js": "/React-GH-Pages/static/js/main.95061e17.js",
+    "main.js": "/React-GH-Pages/static/js/main.977bdf6a.js",
     "static/js/787.d3428903.chunk.js": "/React-GH-Pages/static/js/787.d3428903.chunk.js",
     "static/media/star_photo.JPG": "/React-GH-Pages/static/media/star_photo.0b77136d5c7fa0600fe3.JPG",
     "static/media/coffee.JPG": "/React-GH-Pages/static/media/coffee.e283b9a5ba1d932a0a99.JPG",
     "static/media/okame.JPG": "/React-GH-Pages/static/media/okame.95358938652561ba9e7e.JPG",
     "static/media/headphone.jpg": "/React-GH-Pages/static/media/headphone.5f94506b87619310fa3f.jpg",
     "static/media/icon.jpg": "/React-GH-Pages/static/media/icon.aeae616f45957c82ad67.jpg",
+    "static/media/Hackz.JPG": "/React-GH-Pages/static/media/Hackz.246993db51ce9f761603.JPG",
     "static/media/JPHACKS.JPG": "/React-GH-Pages/static/media/JPHACKS.3f24691d343b9a0f56d5.JPG",
     "static/media/SECCON.JPG": "/React-GH-Pages/static/media/SECCON.c1e224393f452d1821e1.JPG",
     "index.html": "/React-GH-Pages/index.html",
     "main.4362b039.css.map": "/React-GH-Pages/static/css/main.4362b039.css.map",
-    "main.95061e17.js.map": "/React-GH-Pages/static/js/main.95061e17.js.map",
+    "main.977bdf6a.js.map": "/React-GH-Pages/static/js/main.977bdf6a.js.map",
     "787.d3428903.chunk.js.map": "/React-GH-Pages/static/js/787.d3428903.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4362b039.css",
-    "static/js/main.95061e17.js"
+    "static/js/main.977bdf6a.js"
   ]
 }
