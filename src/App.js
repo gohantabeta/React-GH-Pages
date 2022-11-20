@@ -19,7 +19,7 @@ function App() {
         </Link>
         </div>
         <nav className='right_content'>
-        <Link to="/" className='a'>Home</Link>
+        <Link to="/Home" className='a'>Home</Link>
         <br />
         <Link to="/About" className='a'>About</Link>
         <br />
@@ -30,7 +30,7 @@ function App() {
 
         <main>
         <Routes>
-          <Route path="/" element={<Home />}>
+          <Route path="/Home" element={<Home />}>
           </Route>
           <Route path="/React-GH-Pages" element={<Home />}>
           </Route>
