@@ -1,5 +1,4 @@
 import React from 'react';
-import JPHACKS from './JPHACKS.JPG';
 
 class MoreList extends React.Component{
 
@@ -48,7 +47,7 @@ class MoreList extends React.Component{
                     <img src={this.props.image} alt={this.props.name}/>
                 </div>
                 {modal}
-            </div>
+                </div>
         )
     }
 }

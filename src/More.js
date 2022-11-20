@@ -27,7 +27,7 @@ function More (){
     <div className='wrapper'>
       <div className='content_wrapper'>
           <h1>参加したイベントなど</h1>
-          <div className='img_container'>
+          <div className='thumb_container'>
           {moreItem.map((moreItem,index)=>{
           return(
           <MoreList

@@ -1,3 +1,23 @@
+/* 
+ .thumb_container {
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
+  padding-top: 10px;
+} */
+.modal_button { 
+  overflow: hidden;
+  margin-top: 50px;
+}
+
+.modal_button img {
+  /* max-width: 400px;
+  min-width: 240px; */
+  width: 100%;
+  margin-bottom: 10px;
+  border: 1px solid var(--main);
+  background-color: var(--text);
+}
 :root {
     --base: #333;
     --base_light: #3f3f3f;
@@ -19,7 +39,7 @@
   
   .modal-inner {
     position: absolute;
-    top: 8%;
+    top: 10%;
     right: 10%;
     left: 10%;
     max-width:1000px;

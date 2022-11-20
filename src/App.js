@@ -10,11 +10,13 @@ function App() {
 
   
   return ( 
-    <div className="App">
+    <div>
         <BrowserRouter>
         <header>
         <div className='icon_wrapper'>
+        <Link to="/" className='a'>
         <img src={icon} className='img' alt='icon'/>
+        </Link>
         </div>
         <nav className='right_content'>
         <Link to="/" className='a'>Home</Link>
