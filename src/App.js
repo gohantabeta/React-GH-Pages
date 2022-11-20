@@ -14,7 +14,7 @@ function App() {
         <BrowserRouter>
         <header>
         <div className='icon_wrapper'>
-        <Link to="/" className='a'>
+        <Link to="/Home" className='a'>
         <img src={icon} className='img' alt='icon'/>
         </Link>
         </div>
