@@ -14,7 +14,7 @@ function More (){
     name: 'ハックツハッカソン',
     image: Hackz,
     introImage:OrenoCPP,
-    about:'初めてのハッカソンに出場しました！C++に憑りつかれた先輩のもとに6人程集い、チーム「俺のCppがこんなに可愛いわけがない」を結成してサーバーからクライアントGUIまで全てをC++のみで記述するという珍妙な物を作りました。用意された開発テーマ「めがはなせない」にそって、メガと呼ぶにふさわしい大声もしくは高周波の声でないと相手に伝わらないボイスチャットを開発しました。',
+    about:'初めてのハッカソンに出場しました！C++に憑りつかれた先輩のもとに6人程集い、チーム「俺のCppがこんなに可愛いわけがない」を結成してサーバーからクライアントGUIまで全てをC++のみで記述したという珍妙な物を作りました。用意された開発テーマ「めがはなせない」にそって、メガと呼ぶにふさわしい大声もしくは高周波の声でないと相手に伝わらないボイスチャットを開発しました。',
     detail:'日程が2日間と短かったのもあって出来たことは少なかったものの、ハッカソンの雰囲気、チーム開発の雰囲気を十分に体験できました。',
     git:<a href='https://github.com/hackz-hackathon-ichthyo/oreno-cpp-ga-konnani-kawaii-wakeganai' target='_blank' className='git'><h2><i className='fa-brands fa-github fa-lg'>github</i></h2></a>,
     url:<a href='https://topaz.dev/projects/5c7ca1ff2769aeff60bb' target='_blank'><h2>作品紹介ページ</h2></a>
