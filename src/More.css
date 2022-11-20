@@ -42,26 +42,34 @@
     top: 10%;
     right: 10%;
     left: 10%;
+    max-height: 90%;
     max-width:1000px;
     padding-bottom: 20px;
     margin: auto;
+    overflow-y: auto;
     background-color: var(--base);
     border:2px solid var(--main);
     border-radius: 8px;
   }
-  
-  /* .modal-header {
-    height: 8px;
-    width: 100%;
-    margin-bottom: 60px;
-    border-radius: 8px 8px 0 0;
-    background-image: url("https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/react/modal_bar.svg");
-  } */
-  
+  ::-webkit-scrollbar{
+    width: 10px;
+  }
+  ::-webkit-scrollbar-thumb{
+    box-shadow:inset 0 0 6px var(--main);
+  }
+  ::-webkit-scrollbar-track{
+    background-color: var(--base);
+  }
   .modal-introduction p {
     margin-bottom: 5px;
     font-size: 20px;
     font-weight: 300;
+  }
+
+  .modal-introduction img {
+    margin: 5%;
+    width: 90%;
+    border: 1px solid var(--main);
   }
   
   .modal-close-btn {

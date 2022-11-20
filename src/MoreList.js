@@ -21,12 +21,15 @@ class MoreList extends React.Component{
             modal=(
 <div className='modal'>
           <div className='modal-inner'>
-            <div className='modal-header'></div>
             <div className='modal-introduction'>
               <h1>{this.props.name}</h1>
               
               <p>{this.props.about}</p>
-              
+
+              <img src={this.props.introImage} alt={this.props.name}/>
+              <p>{this.props.detail}</p>
+              {this.props.git}
+              {this.props.url}
             </div>
             <button className='modal-close-btn'
             onClick={()=>{this.handleClickClose()}}
