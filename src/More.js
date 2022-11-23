@@ -1,12 +1,12 @@
 import React from 'react';
 import MoreList from './MoreList';
-import './More.css'
-import SECCON from './SECCON.JPG';
-import Hackz from './Hackz.JPG';
-import CTF from './CTFBE.JPG';
-import JPHACKS from './JPHACKS.JPG';
-import OrenoCPP from './OrenoCPP.JPG';
-import TwiGram from './twigram.png';
+import './styls/More.css'
+import SECCON from './img/SECCON.JPG';
+import Hackz from './img/Hackz.JPG';
+import CTF from './img/CTFBE.JPG';
+import JPHACKS from './img/JPHACKS.JPG';
+import OrenoCPP from './img/OrenoCPP.JPG';
+import TwiGram from './img/twigram.png';
 
 function More (){
   const moreItem =[ {

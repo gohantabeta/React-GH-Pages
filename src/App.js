@@ -3,7 +3,7 @@ import { About } from "./About";
 import  More  from "./More";
 import { Home } from "./Home";
 import { Page404 } from "./Page404";
-import icon from './icon.jpg';
+import icon from './img/icon.jpg';
 
 
 function App() {

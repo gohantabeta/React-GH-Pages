@@ -1,8 +1,8 @@
-import coffee from './coffee.JPG';
-import music from './headphone.jpg';
-import star from './star_photo.JPG';
-import bird from './okame.JPG';
-import './about.css';
+import coffee from './img/coffee.JPG';
+import music from './img/headphone.jpg';
+import star from './img/star_photo.JPG';
+import bird from './img/okame.JPG';
+import './styls/about.css';
 
 export const About = () => {
   return (
