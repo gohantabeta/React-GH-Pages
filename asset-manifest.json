@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/React-GH-Pages/static/css/main.df3bfa42.css",
-    "main.js": "/React-GH-Pages/static/js/main.cac29c39.js",
+    "main.css": "/React-GH-Pages/static/css/main.4d66979f.css",
+    "main.js": "/React-GH-Pages/static/js/main.adb49697.js",
     "static/media/star_photo.JPG": "/React-GH-Pages/static/media/star_photo.0b77136d5c7fa0600fe3.JPG",
     "static/media/icon.jpg": "/React-GH-Pages/static/media/icon.d7d7451ef7bb3cafd324.jpg",
     "static/media/coffee.JPG": "/React-GH-Pages/static/media/coffee.e283b9a5ba1d932a0a99.JPG",
@@ -14,11 +14,11 @@
     "static/media/OrenoCPP.JPG": "/React-GH-Pages/static/media/OrenoCPP.31d1610d7dd304d9350e.JPG",
     "static/media/SECCON.JPG": "/React-GH-Pages/static/media/SECCON.c1e224393f452d1821e1.JPG",
     "index.html": "/React-GH-Pages/index.html",
-    "main.df3bfa42.css.map": "/React-GH-Pages/static/css/main.df3bfa42.css.map",
-    "main.cac29c39.js.map": "/React-GH-Pages/static/js/main.cac29c39.js.map"
+    "main.4d66979f.css.map": "/React-GH-Pages/static/css/main.4d66979f.css.map",
+    "main.adb49697.js.map": "/React-GH-Pages/static/js/main.adb49697.js.map"
   },
   "entrypoints": [
-    "static/css/main.df3bfa42.css",
-    "static/js/main.cac29c39.js"
+    "static/css/main.4d66979f.css",
+    "static/js/main.adb49697.js"
   ]
 }
