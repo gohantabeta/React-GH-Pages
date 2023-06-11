@@ -17,9 +17,9 @@ export const About = () => {
           <p>まだまだどの分野も初心者ですが、何卒よろしくお願いします。</p>
 
           <h2>使用技術</h2>
-          <p>C/C++，C#，TypeScript，JavaScript</p>
-          <p>HTML，CSS</p>
-          <p>React，Node，Siv3D</p>
+          <p>C/C++,C#,TypeScript,JavaScript,PHP,SQL</p>
+          <p>HTML,CSS,AdminLTE</p>
+          <p>React,Node,Siv3D,Laravel,PostgresSQL</p>
           <p>Unity</p>
           <p>＊いずれもハッカソン等で使用したことがある程度で初心者です</p>
 
@@ -51,8 +51,8 @@ export const About = () => {
           </div>
 
           <h2>経歴</h2>
-          <p>福岡中央高校　普通科 卒</p>
-          <p>九州工業大学 情報工学部 在学</p>
+          <p>福岡中央高校 普通科 卒</p>
+          <p>九州工業大学 情報工学部 生命科学情報工学科 在学</p>
         </div>
       </main>
     </div>

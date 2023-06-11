@@ -44,7 +44,7 @@ function App() {
         </main>
 
         <footer>
-          <p>&copy; 2022. gohantabeta. All rights reserved.</p>
+          <p>&copy; 2023. gohantabeta. All rights reserved.</p>
         </footer>
         </BrowserRouter>
       </div>
