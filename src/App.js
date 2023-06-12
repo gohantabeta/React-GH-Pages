@@ -1,4 +1,4 @@
-import { BrowserRouter, Link, Routes, Route } from "react-router-dom";
+import { HashRouter, Link, Routes, Route } from "react-router-dom";
 import { About } from "./About";
 import  More  from "./More";
 import { Home } from "./Home";
@@ -11,7 +11,7 @@ function App() {
   
   return ( 
     <div>
-        <BrowserRouter>
+        <HashRouter>
         <header>
         <div className='icon_wrapper'>
         <Link to="/React-GH-Pages/Home" className='a'>
@@ -46,7 +46,7 @@ function App() {
         <footer>
           <p>&copy; 2023. gohantabeta. All rights reserved.</p>
         </footer>
-        </BrowserRouter>
+        </HashRouter>
       </div>
   
   );
